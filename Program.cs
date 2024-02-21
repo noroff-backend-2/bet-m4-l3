@@ -65,6 +65,7 @@ namespace mysqlefcore
                 data.AppendLine($"ID: {tool.ID}");
                 data.AppendLine($"Name: {tool.Name}");
                 data.AppendLine($"Price: {tool.Price}");
+                data.AppendLine("");
             }
             data.AppendLine("-----------------------");
             Console.WriteLine(data.ToString());
